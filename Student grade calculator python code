@@ -1,0 +1,16 @@
+totalmarks=0
+for i in range(1,6):
+    print("Enter marks for subject:",i)
+    marks = int(input())
+    totalmarks+=marks
+averagemarks=totalmarks/5
+print(totalmarks)
+print(averagemarks)
+if averagemarks >= 90:
+    print("Grade: A")
+elif averagemarks >= 75:
+    print("Grade: B")
+elif averagemarks >=50:
+    print("Grade: C")
+elif averagemarks < 50:
+    print("Grade: F")
